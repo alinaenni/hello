@@ -114,7 +114,7 @@ strong {
 }
 @media screen and (max-width: 700px) {
   .bar { width: 100%; padding-left: 0px; height: auto; }
-  .bar a { display: none; font-size: 14px; }
+  .bar a { display: none; font-size: 16px; }
   .bar .contact { display: none; font-size: 14px; }
   .bar .icon {
     display: block;
@@ -132,7 +132,7 @@ strong {
     display: block;
     text-align: left;
     padding-left: 20px;
-    font-size: 14px;
+    font-size: 16px;
   }
     .bar.responsive .icon {
       box-sizing: border-box;
