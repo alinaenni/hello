@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>Alina Designs</title>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Heebo:300" rel="stylesheet">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+<body>
+
+  <div class="bar" id="navbar">
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+    <a href="#me">About me</a>
+
+<div class="dropdown">
+    <span class="contact">Get in touch ▾</span>
+      <div class="dropdowncon">
+        <a href="mailto:alinaenni@gmail.com">Email</a>
+        <a href="https://github.com/alinaenni" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/alina-rouvinen/" target="_blank">LinkedIn</a>
+      </div>
+  </div>
+</div>
+
+    <div class="wrap2">
+
+    <div class="head">
+      Alina Designs
+    </div>
+
+    <div class="sub">
+      a small portfolio
+    </div>
+
+  </div>
+
+  <div class="wrap1">
+    <div class="item1 le spec2">
+      <h1>The kelpie</h1>
+      This is a design with a transparent navigation bar at the top and a beautiful background
+      to illustrate the subject at hand.<br /><br />
+
+      <a href="">Preview</a>
+    </div>
+
+    <div class="item2 spec">
+      <img src="des3.jpg" alt="DESIGN 1" />
+    </div>
+  </div>
+
+
+  <div class="wrap1">
+    <div class="item2 spec">
+      <img src="des3.jpg" alt="DESIGN 2" />
+    </div>
+
+    <div class="item1 ri spec2">
+      <h1>Personal website</h1>
+      Lorem ipsum dolor sit amet. Blah blah blah diippa daa duubba di. Namaste colopse unto
+      lamo termu singh. Suipet lath fakhri.<br /><br />
+
+      <a href="">Preview</a>
+    </div>
+  </div>
+
+  <div class="wrap1">
+    <div class="item1 le spec2">
+      <h1>Wild horses</h1>
+      This is a design with a transparent navigation bar at the top and a beautiful background
+      to illustrate the subject at hand.<br /><br />
+
+      <a href="">Preview</a>
+    </div>
+
+    <div class="item2 spec">
+      <img src="des3.jpg" alt="DESIGN 3" />
+    </div>
+  </div>
+
+
+
+  <div class="me" id="me">
+    <div class="text"><h2>A little bit about me</h2>
+
+      I am a 20-year-old student from Finland with a passion and ever-growing interest
+      in web design. Originally, I taught myself to write code and began to create
+      my first websites when I was still in school. Ever since, web design has been a hobby of mine.
+    </div>
+
+    <div class="pic">
+      <img src="picc.jpg" alt="PICTURE OF ME" />
+    </div>
+  </div>
+
+  <footer>
+    <span class="log">Alina Designs</span>
+    <ul>
+      <li><a href="mailto:alinaenni@gmail.com">Email</a></li>
+      <li><a href="https://github.com/alinaenni" target="_blank">GitHub</a></li>
+      <li><a href="https://www.linkedin.com/in/alina-rouvinen/" target="_blank">LinkedIn</a></li>
+    </ul>
+  </footer>
+
+
+</body>
+<script>
+
+/* mobile navigation */
+function myFunction() {
+    var x = document.getElementById("navbar");
+    if (x.className === "bar") {
+        x.className += " responsive";
+    } else {
+        x.className = "bar"; }
+}
+
+// Select all links with hashes
+$('a[href*="#"]')
+  // Remove links that don't actually link to anything
+  .not('[href="#"]')
+  .not('[href="#0"]')
+  .click(function(event) {
+    // On-page links
+    if (
+      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
+      &&
+      location.hostname == this.hostname
+    ) {
+      // Figure out element to scroll to
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+      // Does a scroll target exist?
+      if (target.length) {
+        // Only prevent default if animation is actually gonna happen
+        event.preventDefault();
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000, function() {
+          // Callback after animation
+          // Must change focus!
+          var $target = $(target);
+          $target.focus();
+          if ($target.is(":focus")) { // Checking if the target was focused
+            return false;
+          } else {
+            $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
+            $target.focus(); // Set focus again
+          };  });
+      }}  });
+
+</script>
+</html>
