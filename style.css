@@ -72,6 +72,8 @@ strong {
   width: 150px;
   color: #212121;
   text-decoration: none;
+  float: left;
+  position: relative;
   margin: 0px;
   padding: 0px;
 }
@@ -98,6 +100,7 @@ strong {
   display: block;
   font-size: 12px;
   color: #fefefe;
+  float: none;
   text-decoration: none;
   text-transform: none;
   -webkit-transition-duration: 1s;
