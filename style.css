@@ -62,7 +62,7 @@ strong {
   line-height: 45px;
   vertical-align: middle;
   text-align: left;
-  font-size: 12px;
+  font-size: 14px;
   color: #212121;
   font-weight: bold;
 }
@@ -99,7 +99,7 @@ strong {
 }
 .dropdowncon a {
   display: block;
-  font-size: 12px;
+  font-size: 14px;
   color: #fefefe;
   float: none;
   text-decoration: none;
@@ -136,7 +136,7 @@ strong {
     display: block;
     text-align: left;
     padding-left: 20px;
-    font-size: 16px;
+    font-size: 14px;
   }
     .bar.responsive .icon {
       box-sizing: border-box;
@@ -270,6 +270,7 @@ footer {
   vertical-align: middle;
   background: #000;
   margin: 0px;
+  font-size: 18px;
 }
 footer ul {
   width: 50%;
@@ -287,12 +288,11 @@ footer li {
 }
 footer a {
   text-decoration: none;
-  font-size: 13px;
   color: #c6c6c6;
 }
 .log {
   font-family: 'Jenn', sans-serif;
-  font-size: 33px;
+  font-size: 38px;
   letter-spacing: 1px;
   position: absolute;
   cursor: default;
@@ -415,12 +415,12 @@ footer a {
   }
   footer a {
     text-decoration: none;
-    font-size: 13px;
+    font-size: 16px;
     color: #c6c6c6;
   }
   .log {
     font-family: 'Jenn', sans-serif;
-    font-size: 36px;
+    font-size: 40px;
     letter-spacing: 1px;
     position: absolute;
     cursor: default;
