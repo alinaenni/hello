@@ -234,12 +234,12 @@ strong {
   width: 100%;
   box-sizing: border-box;
   text-align: left;
-  padding: 80px 40px 90px 70px;
+  padding: 70px 0px 90px 80px;
   line-height: 30px;
   font-size: 18px;
-  color: #7a7a7a;
-  background-image:url('hypnotize.png');
-  background-size: 130px;
+  color: #4a4a4a;
+  background-image:url('rockywall.png');
+  background-size: 250px;
   background-repeat: repeat;
   background-attachment: fixed;
   margin: 0px;
@@ -249,19 +249,20 @@ strong {
   flex-flow: column;
   justify-content: center;
   text-align: justify;
-  width: 45%;
+  line-height: 38px;
+  width: 55%;
 }
 .pic {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 55%;
+  padding: 0px;
+  width: 45%;
 }
 .pic img {
   width: 35%;
   height: auto;
   border-radius: 50%;
-/*  border: 1px solid #e2e2e2; */
 }
 footer {
   position: relative;
