@@ -228,13 +228,11 @@ strong {
   cursor: default;
 }
 .me {
-  display: flex;
-  flex-flow: row nowrap;
   position: relative;
   width: 100%;
   box-sizing: border-box;
-  text-align: left;
-  padding: 70px 0px 90px 80px;
+  text-align: justify;
+  padding: 10vh 10vw 10vh 10vw;
   line-height: 30px;
   font-size: 18px;
   color: #4a4a4a;
@@ -243,26 +241,6 @@ strong {
   background-repeat: repeat;
   background-attachment: fixed;
   margin: 0px;
-}
-.text {
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
-  text-align: justify;
-  line-height: 38px;
-  width: 60%;
-}
-.pic {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0px;
-  width: 40%;
-}
-.pic img {
-  width: 35%;
-  height: auto;
-  border-radius: 50%;
 }
 footer {
   position: relative;
