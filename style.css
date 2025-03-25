@@ -250,14 +250,14 @@ strong {
   justify-content: center;
   text-align: justify;
   line-height: 38px;
-  width: 55%;
+  width: 60%;
 }
 .pic {
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 0px;
-  width: 45%;
+  width: 40%;
 }
 .pic img {
   width: 35%;
